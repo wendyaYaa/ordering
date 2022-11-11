@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>瑞吉外卖管理端</title>
+    <title>小可爱点餐管理端</title>
     <link rel="shortcut icon" href="favicon.ico">
     <!-- 引入样式 -->
     <link rel="stylesheet" href="plugins/element-ui/index.css" />
@@ -32,7 +32,7 @@
         <div class="sidebar-container">
           <div class="logo">
             <!-- <img src="images/logo.png" width="122.5" alt="" /> -->
-            <img src="images/login/login-logo.png" alt="" style="width: 117px; height: 32px" />
+            <img src="images/login/login-logo.png" alt="" style="width: 150px; height: 100px" />
           </div>
 
           <el-scrollbar wrap-class="scrollbar-wrapper">
@@ -40,9 +40,9 @@
               :default-active="defAct"
               :unique-opened="false"
               :collapse-transition="false"
-              background-color="#343744"
-              text-color="#bfcbd9"
-              active-text-color="#f4f4f5"
+              background-color="#fadedb"
+              text-color="#ffffff"
+              active-text-color="#c8e8f8"
             >
               <div v-for="item in menuList" :key="item.id">
                 <el-submenu :index="item.id" v-if="item.children && item.children.length>0">

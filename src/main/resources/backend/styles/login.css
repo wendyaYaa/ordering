@@ -3,7 +3,7 @@
   justify-content: center;
   align-items: center;
   height: 100%;
-  background-color: #333;
+  background-color: #fadedb;
 }
 .login-box {
   width: 1000px;
@@ -23,7 +23,7 @@
   color: #707070;
 }
 .login-form {
-  background: #ffffff;
+  background: #ffffff ;
   width: 40%;
   border-radius: 0px 8px 8px 0px;
   display: flex;
@@ -79,7 +79,7 @@
   font-weight: 500;
   font-size: 14px;
   border: 0;
-  background-color: #ffc200;
+  background-color: #96e3e7;
 }
 .login-btn:hover,
 .login-btn:focus {
@@ -87,7 +87,7 @@
   /* color: #ffffff; */
 }
 .login-form-title {
-  height: 36px;
+  height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;

@@ -93,7 +93,7 @@
   margin-left: 20px;
   width: 28px;
   font-size: 14px;
-  color: #ffc200;
+  color: #96e3e7;
   cursor: pointer;
 }
 
@@ -191,11 +191,11 @@
 
 .logo {
   text-align: center;
-  background-color: rgb(52, 55, 68);
+  background-color: #fadedb;
   /* height: 100px;
   line-height: 100px;
   padding: 12px 5px; */
-  padding: 46px 37px 67px 36px;
+  padding: 30px 37px 30px 10px;
 }
 
 .img {
@@ -255,7 +255,7 @@
 }
 
 .el-menu .el-menu-item.is-active {
-  background-color: #ffc200 !important;
+  background-color:#96e3e7 !important;
   color: #333333 !important;
   border-radius: 0 21px 21px 0 !important;
 }
